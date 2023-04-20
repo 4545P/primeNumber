@@ -15,7 +15,7 @@ btn.addEventListener("click", function () {
         break;
       } else if (j === i - 1) {
         array.push(i);
-        ans.innerHTML = `<p>${array}</p>`;
+        ans.innerHTML = array.join(" ");
       }
     }
   }
